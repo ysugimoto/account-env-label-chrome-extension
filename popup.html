@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Setting</title>
+    <style>
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 420px;
+}
+#app {
+  text-align: right;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px;
+}
+button {
+  border: solid 1px #ccc;
+  background-color: #ddd;
+  padding: 0.6em 1em;
+}
+#inputs {
+  border-top: solid 1px #ccc;
+  padding-top: 0.4em;
+  margin-top: 0.6em;
+}
+
+.field {
+  padding: 0.4em;
+  text-align: left;
+}
+.field input {
+  color: #333;
+  padding: 0.6em;
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+.field input[type=color] {
+  padding: 0.4em;
+}
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <button id="add-account">Add Account</button>
+      <button id="save-account">Save Account</button>
+      <div id="inputs"></div>
+    </div>
+    <template id="tmpl-field">
+      <div class="field">
+        <label><input type="text" placeholder="AWS Account ID" /></label>
+        <label><input type="text" placeholder="Label" /></label>
+        <label><input type="color" /></label>
+        <button>Delete</button>
+      </div>
+    </template>
+    <script src="popup.js"></script>
+  </body>
+</html>
