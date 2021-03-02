@@ -11,7 +11,7 @@ You can see how to install extension from local file: https://www.youtube.com/wa
 
 After installation, click extension icon and show popup and fill inputs:
 
-![popup image](...)
+![popup image](https://github.com/ysugimoto/account-env-label-chrome-extension/blob/main/misc/popup_image.png)
 
 ### AWS Account ID
 
@@ -29,7 +29,7 @@ After filled inputs, press `Save Account` button to save to storage.
 Then let's access AWS console which you saved accounts and you will find the label at the left of CloudShell icon:
 
 
-![appbar](...)
+![appbar](https://github.com/ysugimoto/account-env-label-chrome-extension/blob/main/misc/aws_appbar.png)
 
 Before you work on AWS console, check your current environment from this Label :-)
 
